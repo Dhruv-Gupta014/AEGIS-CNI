@@ -10,6 +10,14 @@ This project was built for the **ET AI Hackathon 2.0 (Problem Statement 7: Cyber
 
 ---
 
+## 🚀 Live Demo (Vercel Standalone Mode)
+
+For the online hackathon submission, the frontend is deployed in a **Standalone Mock Mode**. It mathematically simulates the provenance graph generation directly in the browser to guarantee a flawless viewing experience without requiring the Python backend to be hosted online.
+
+**View the Live Demo:** https://aegis-cni.vercel.app/
+
+---
+
 ## 🧠 Core Architecture
 
 Traditional SOCs rely on static log analysis and known signatures, resulting in an average Mean Time to Detect (MTTD) of 21 days for APTs. Aegis-CNI shifts the paradigm from log analysis to **behavioral graph analysis**.
@@ -23,14 +31,6 @@ Instead of isolated logs, the system builds real-time **Provenance Graphs** (mod
 
 ### 3. Autonomous SOAR Engine
 The Security Orchestration, Automation, and Response (SOAR) layer calculates a dynamic **Blast Radius Risk Score**. When high-confidence thresholds are crossed, it executes autonomous playbooks (e.g., isolating endpoints, blocking IPs) and logs a cryptographically hashed immutable audit trail.
-
----
-
-## 🚀 Live Demo (Vercel Standalone Mode)
-
-For the online hackathon submission, the frontend is deployed in a **Standalone Mock Mode**. It mathematically simulates the provenance graph generation directly in the browser to guarantee a flawless viewing experience without requiring the Python backend to be hosted online.
-
-**View the Live Demo:** [Insert Vercel Link Here]
 
 ---
 
